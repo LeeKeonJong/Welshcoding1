@@ -1,0 +1,153 @@
+            * {margin:0; padding:0;}
+            ul, li, ol{list-style-type:none; margin:0; padding:0;}
+
+
+            @font-face {
+              font-family: 'SF_HambakSnow';
+              src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+              font-weight: normal;
+              font-style: normal;
+          }
+
+            body{width:100%; height:100%; background-color: black;}
+
+            header{width:100%; height:80px; background-color:#131313; display:flex; border-bottom:2px solid #f9b81e; }
+
+            #one{width:1110px; height:80px; margin:0 auto; display:flex; }
+            #one > nav{width:40%; height: 60px; margin:0 auto; }
+            #one > nav ul{display:flex; justify-content: center;}
+            #one > nav ul li{padding:0 5%;}
+            #one > nav ul li a{color:white; font-size:20px; font-family: 'EliceDigitalBaeum_Bold'; text-decoration: none; font-weight:normal; line-height: 75px; justify-content: center;}
+            #one > nav ul li a:hover{color:#f9b81e;}
+            #one > .logo{width:15%; height:30px; margin-top:20px;}
+            #one > .logo:hover{cursor:pointer}
+
+            #one > button{width:15%; height:40px; font-family: 'EliceDigitalBaeum_Regular'; background-color:#ffb122; color:black; border-radius:50px; border:0; justify-content: flex-end; margin-top:19px; cursor:pointer;}
+            #one > button:hover{background-color:white; color:#f9b81e; transition:0.2s;}
+
+
+
+
+
+            #mainbn{height: 900px; width: 1160px; padding: 20px; margin: 0 auto; position: relative;}
+
+            #bb img{width: 100%; height: 800px; margin: 0 auto; position: absolute;}
+
+            #mainbn h4{font-size: 30px; text-align: center; color: white; margin: 200px 0 0 0px; font-family: 'SF_HambakSnow';}
+            #mainbn h1{font-size: 120px; font-weight: bold; text-align:center; color: white; margin: 20px 0 0 0px; font-family: 'SF_HambakSnow';}
+
+            .as:hover {background-color: #ffb122;}
+            .as1:hover {background-color: #ffb122;}
+
+            .as > img {width: 60px; height: 60px; margin-left: 20px; position: absolute; top: 650px; left: 110px; cursor: pointer;}
+            .as1 > img {width: 60px; height: 60px; margin-left: 20px; position: absolute; top: 650px; right: 110px; cursor: pointer;}
+
+            .imgbox{width: 235px; height: 380px; position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block; margin: 10px; top: 70px; left: 210px; }
+
+            .imgbox > img{width: 100%; height: 330px;}
+
+            .textbox { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
+
+            .textbox p{width: 40px; background-color: #ffb122; margin-top: 335px; margin-left: 10px;}
+            .textbox span { margin-left: 10px;}
+            .textbox:hover {background-color:rgba(0, 0, 0, 0.6);}
+
+            
+
+
+            #eventgame{width: 1200px; height: 600px; display: flex; flex-flow: row wrap ; margin: 0 auto; position: relative;}
+            .imgbox1{width: 220px; height: 190px; margin-left: 80px;  position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block;}
+            .imgbox1 > img{width: 100%; height: 137px;}
+
+            .imgbox2{width: 252px; height: 200px; margin-left: 100px; position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block;}
+            .imgbox2 > img{width: 100%; height: 147px;}
+
+            .textbox1 { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
+
+            .textbox1 p{width: 40px; background-color: #ffb122; margin-top: 145px; margin-left: 10px;}
+            .textbox1 span { margin-left: 10px; font-size: 15px;}
+            .textbox1:hover {background-color:rgba(0, 0, 0, 0.6);}
+
+            .textbox2 { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
+
+            .textbox2 p{width: 40px; background-color: #ffb122; margin-top: 155px; margin-left: 10px;}
+            .textbox2 span { margin-left: 10px; font-size: 15px;}
+            .textbox2:hover {background-color:rgba(0, 0, 0, 0.6);}
+
+
+
+
+
+
+            #subbn{width: 100%; height: 300px; }
+            #subbn img{width: 100%; height:100%;}
+
+
+
+
+
+            #together{width: 1200px; height: 900px; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: center; box-sizing: border-box; padding: 0 150px;}
+            #together h2 {width: 100%; font-size: 20pt; margin:100px 0 50px;  color: white;}
+            .togetherimg > img{width: 214px; height: 222px; }
+
+            .imgbox3 { width: 25%; height: 225px; margin-bottom: 10px;
+            position: relative;
+            box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+            cursor: pointer;
+            overflow: hidden;}
+
+            .info{opacity: 0; position: absolute;  left: 0; top:auto; bottom: -100%; right: 0; background: rgba(0,0,0,0.7); color: #fff; padding: 13px; transition: all 0.35s ease-in-out;}
+
+            .imgbox3 .info p{background-color: #ffb122; width: 40px;}
+
+            .imgbox3 .info span{font-size: 14px;}
+
+            .imgbox3:hover .info {opacity:1; bottom: 0;}
+
+
+
+
+
+
+
+            #nextevent{width: 1200px; height: 760px; margin: 0 auto;}
+            #nextevent h2{margin-left: 150px; color: white;}
+            
+
+            #nextbox1{width: 900px; height: 138px; margin-left: 160px; margin-top: 50px; }
+            #nextbox1 img{width: 250px; height: 138px; margin-right: 20px; float: left;}
+
+            #nextbox1 b{color: white; font-size: 14px;}
+            #nextbox1 h3{color: white;} 
+            #nextbox1 p{color: white; margin: 5px;}
+
+            #nextbox2{width: 900px; height: 138px; margin-left: 160px; margin-top: 20px; }
+            #nextbox2 img{width: 250px; height: 138px; margin-right: 20px; float: left;}
+            #nextbox2 b{color: white; font-size: 14px;}
+            #nextbox2 h3{color: white; margin: 6px;} 
+            #nextbox2 p{color: white; margin: 5px; font-size: 15px;}
+
+            #nextbox3{width: 900px; height: 138px; margin-left: 160px; margin-top: 20px; }
+            #newslink iframe{width: 250px; height: 138px; margin-right: 20px; float: left;}
+            #nextbox3 b{color: white; font-size: 14px;}
+            #nextbox3 h3{color: white; margin: 6px;} 
+            #nextbox3 p{color: white; margin: 5px;}
+
+            #nextbox4{width: 900px; height: 138px; margin-left: 160px; margin-top: 20px; }
+            #nextbox4 img{width: 250px; height: 138px; margin-right: 20px; float: left;}
+            
+            #nextbox4 b{color: white; font-size: 14px;}
+            #nextbox4 h3{color: white;} 
+            #nextbox4 p{color: white; margin: 5px;}
+
+
+
+            footer{width:100%; height:60px; background-color:#131313;}
+            
+            #two{width:1110px; height:60px; margin:0 auto; display:flex;}
+            #two > span{width:60%; height:60px; color:white; font-size:15px; font-family: 'Pretendard-Regular'; line-height:55px;}
+            #two > nav{width:40%; height: 60px; justify-content: flex-end; margin-left:143px;}
+            #two > nav ul{display:flex; justify-content: flex-end;}
+            #two > nav ul li{padding:0 5%;}
+            #two > nav ul li a{color:white; font-size:16px; font-family: 'EliceDigitalBaeum_Bold'; text-decoration: none; font-weight:normal; line-height: 55px; justify-content: center;}
+            #two > nav ul li a:hover{color:#f9b81e;}

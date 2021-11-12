@@ -1,0 +1,37 @@
+            
+            
+
+            * {margin:0; padding:0;}
+            ul, li, ol{list-style-type:none; margin:0; padding:0;}
+
+            #wrap{width:100%; height:4305px;}
+
+            header{width:100%; height:80px; background-color:#131313; display:flex; border-bottom:2px solid #f9b81e; }
+
+            #one{width:1110px; height:80px; margin:0 auto; display:flex; }
+            #one > nav{width:40%; height: 60px; margin:0 auto; }
+            #one > nav ul{display:flex; justify-content: center;}
+            #one > nav ul li{padding:0 5%;}
+            #one > nav ul li a{color:white; font-size:20px; font-family: 'EliceDigitalBaeum_Bold'; text-decoration: none; font-weight:normal; line-height: 75px; justify-content: center;}
+            #one > nav ul li a:hover{color:#f9b81e;}
+            #one > .logo{width:15%; height:30px; margin-top:20px;}
+            #one > .logo:hover{cursor:pointer}
+
+            #one > button{width:15%; height:40px; font-family: 'EliceDigitalBaeum_Regular'; background-color:#ffb122; color:black; border-radius:50px; border:0; justify-content: flex-end; margin-top:19px; cursor:pointer;}
+            #one > button:hover{background-color:white; color:#f9b81e; transition:0.2s;}
+
+            #slider{width:100%; height: 780px; background-color:lightblue}
+
+            .section{width:100%; height:3340px; background-color:lightgray;}
+
+            footer{width:100%; height:60px; background-color:#131313;}
+            
+            #two{width:1110px; height:60px; margin:0 auto; display:flex;}
+            #two > span{width:58%; height:60px; color:white; font-size:15px; font-family: 'Pretendard-Regular'; line-height:55px;}
+            #two > nav{width:40%; height: 60px; justify-content: flex-end; margin-left:143px;}
+            #two > nav ul{display:flex; justify-content: flex-end;}
+            #two > nav ul li{padding:0 5%;}
+            #two > nav ul li a{color:white; font-size:16px; font-family: 'EliceDigitalBaeum_Bold'; text-decoration: none; font-weight:normal; line-height: 55px; justify-content: center;}
+            #two > nav ul li a:hover{color:#f9b81e;}
+
+

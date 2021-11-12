@@ -1,0 +1,11 @@
+            
+            
+            
+            header{width:100%; height:80px; background-color:#131313; border-bottom:2px solid #f9b81e; position:absolute; opacity:0.9; z-index:3;}
+            .a:hover{cursor:pointer;}
+            .c{width:150px; height:40px; font-family: 'EliceDigitalBaeum_Regular'; background-color:#ffb122; color:black; border-radius:50px; border:0;  cursor:pointer;}
+            .c:hover{background-color:white; color:#f9b81e; transition:0.2s;}
+
+            
+
+            

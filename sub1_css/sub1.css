@@ -1,0 +1,95 @@
+@media(max-width:767px){
+    body{background-color: #131313;}
+.sbg{width:100%; height: 300px;}
+#slider{width: 100%; height: 900px; margin: 0 auto;}
+#slider img {width: 100%; height: 30%;}
+hr{width: 1200px; margin: 0 auto;}
+.section{width:100%; height:auto;}
+.section h1{text-align: center; color: #eee; font-size: 15px; margin-top: 20px; margin-bottom: -50px;}
+.section .ice{width: 100%; height: auto; margin: 0 auto;}
+.section .ice img{width: 100%; height: 50%; margin-top: 15%;}
+.section .ice .g1{ text-align:left; margin-top: 10px;  color: #eee; margin-right: 50px; float: right; font-size: 12px;}
+.buy button{width: 100px; height: 50px; margin-top: 10%; margin-left: 39%; cursor: pointer; font-size: 18px;
+border: 2px solid #f9b81e; border-radius: 20px; background-color: #131313; color: #f9b81e;}
+.buy button:hover{color: #131313; background-color: #f9b81e;}
+
+.play{width: 100%; height: auto; margin: 0 auto; color: #eee; text-align: center; position: relative;}
+.play ul li{ float: left;}
+.play ul li video{width:30%; height: auto; float: left; margin-top: 5%; padding-bottom: 50%;
+margin-left: 5%; cursor: pointer;}
+.play .vi{width: 2080px; height: 100%;}
+.M{width: 1050px; height: 350px; margin: 0 auto; overflow: hidden;}
+.play p{font-size: 50px;}
+.play button{width: 50px; height: 50px; background-color: #131313; position: absolute; top: 57%; transform: translateY(-50%);
+border: 0; color: white; cursor: pointer;}
+.play button p:hover{color: #f9b81e;}
+.L{ left: 0; }
+.R{ right: 0;}
+.play button{width: 50px; height: 50px; float: left;}
+
+.monster{width: 100%; height: auto; color: #eee; margin: 0 auto; text-align: center; display: flex; justify-content: space-evenly;
+align-content:center; flex-wrap: wrap;}
+.monster h2{width: 100%; margin-bottom: 50px;}
+.monster div{overflow: hidden; width: 100%; height: auto; margin: 5px;}
+.monster div img{transition: 0.5s ease-in-out;}
+.monster div img:hover{ transform:scale(1.2);}
+.monster img{width: 100%; height: auto; }
+
+.con{width: 100%; height: auto; margin: 0 auto; color: #eee;}
+.con h2{text-align: center; margin-top: 20px;}
+.con .ud{display: flex; padding: 10px;  align-items: center;}
+.con .ud .ud1,.ud2{width: 500px;}
+.con .ud .ud1 div,.ud2 div{padding: 10px;}
+.con .ud img{width: 200px; height: 150px;}
+.con .ud div{font-size: 13px;}
+.con .ud .ud1 span{float: left;}
+.con .ud .ud2 span{float: left;}
+}
+
+
+@media(min-width:768px){
+    body{background-color: #131313;}
+.sbg{width:100%; height: 1000px;}
+#slider{width: 100%; height: 900px; margin: 0 auto;}
+#slider img {width: 100%; height: 100%;}
+hr{width: 1200px; margin: 0 auto;}
+.section{width:100%; height:600px;}
+.section h1{text-align: center; color: #eee; margin-top: 20px; margin-bottom: -50px;}
+.section .ice{width: 1200px; height: 600px; margin: 0 auto;}
+.section .ice img{width: 300px; height: 300px; margin-top: 150px; margin-left: 150px;}
+.section .ice .g1{ text-align:left; margin-top: 170px;  color: #eee; margin-right: 50px; float: right;}
+.buy button{width: 300px; height: 70px; margin-left: 450px; cursor: pointer; font-size: 45px;
+border: 2px solid #f9b81e; border-radius: 20px; background-color: #131313; color: #f9b81e;}
+.buy button:hover{color: #131313; background-color: #f9b81e;}
+
+.play{width: 1200px; height: 450px; margin: 0 auto; color: #eee; text-align: center; position: relative;}
+.play ul li{ float: left;}
+.play ul li video{width: 500px; height: 350px; padding: 10px;
+display: inline-block; cursor: pointer;}
+.play .vi{width: 2080px; height: 100%;}
+.M{width: 1050px; height: 350px; margin: 0 auto; overflow: hidden;}
+.play p{font-size: 50px;}
+.play button{width: 50px; height: 50px; background-color: #131313; position: absolute; top: 57%; transform: translateY(-50%);
+border: 0; color: white; cursor: pointer;}
+.play button p:hover{color: #f9b81e;}
+.L{ left: 0; }
+.R{ right: 0;}
+.play button{width: 50px; height: 50px; float: left;}
+
+.monster{width: 1200px; height: 600px; color: #eee; margin: 0 auto; text-align: center; display: flex; justify-content: space-evenly;
+align-content:center; flex-wrap: wrap;}
+.monster h2{width: 100%; margin-bottom: 50px;}
+.monster div{overflow: hidden; width: 380px; height: 200px; margin: 5px;}
+.monster div img{transition: 0.5s ease-in-out;}
+.monster div img:hover{ transform:scale(1.2);}
+.monster img{width: 380px; height: 200px; }
+.con{width: 1200px; height: 600px; margin: 0 auto; color: #eee;}
+.con h2{text-align: center; margin-top: 20px;}
+.con .ud{display: flex; padding: 10px; flex-wrap: wrap; justify-content: space-evenly; align-items: center;}
+.con .ud .ud1,.ud2{width: 500px;}
+.con .ud .ud1 div,.ud2 div{padding: 10px;}
+.con .ud img{width: 200px; height: 150px;}
+.con .ud div{font-size: 13px;}
+.con .ud .ud1 span{float: right;}
+.con .ud .ud2 span{float: right;}
+}
