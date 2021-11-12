@@ -1,14 +1,16 @@
 $(function(){
     $('#prev').click(function () {
+        
         $('#newgamesultwo li:last').prependTo('#newgamesultwo');
-        $('#newgamesultwo').css('margin-left', 0);
-        $('#newgamesultwo').stop().alimate({ marginLeft: 0 }, 800);
+        $('#newgamesultwo').css('margin-left',-0);
+        $('#newgamesultwo').stop().alimate({ marginLeft:0},800);
     });
     
     $('#next').click(function () {
+        $('#newgamesultwo').stop().animate({ marginLeft: -215 }, 800, function () { 
         $('#newgamesultwo li:first').appendTo('#newgamesultwo');
-        $('#newgamesultwo').css({ marginLeft: 205 });
-        $('#newgamesultwo').stop().animate({ marginLeft: -0 }, 500, function () {   
+        $('#newgamesultwo').css({ marginLeft: 0 });
+         
         });
     });
 
@@ -19,9 +21,9 @@ $(function(){
     });
     
     $('#nexttwo').click(function () {
+        $('#topsellersul').stop().animate({ marginLeft: -215 }, 800, function () { 
         $('#topsellersul li:first').appendTo('#topsellersul');
-        $('#topsellersul').css({ marginLeft: 0 });
-        $('#topsellersul').stop().animate({ marginLeft: -0 }, 800, function () {   
+        $('#topsellersul').css({ marginLeft: 0 });         
         });
     });
 
@@ -32,9 +34,9 @@ $(function(){
     });
     
     $('#nextthree').click(function () {
+        $('#discountgamesul').stop().animate({ marginLeft: -215 }, 800, function () { 
         $('#discountgamesul li:first').appendTo('#discountgamesul');
-        $('#discountgamesul').css({ marginLeft: 0 });
-        $('#discountgamesul').stop().animate({ marginLeft: -0 }, 800, function () {   
+        $('#discountgamesul').css({ marginLeft: 0 });         
         });
     });
 
@@ -46,9 +48,9 @@ $(function(){
     });
     
     $('#nextfour').click(function () {
+        $('#comingsoongamesul').stop().animate({ marginLeft: -215 }, 800, function () {
         $('#comingsoongamesul li:first').appendTo('#comingsoongamesul');
-        $('#comingsoongamesul').css({ marginLeft: 0 });
-        $('#comingsoongamesul').stop().animate({ marginLeft: -0 }, 800, function () {   
+        $('#comingsoongamesul').css({ marginLeft: 0 });          
         });
     });
 
@@ -59,9 +61,9 @@ $(function(){
     });
     
     $('#nextslide').click(function () {
+        $('#review').stop().animate({ marginLeft: -530 }, 800, function () {
         $('#review div:first').appendTo('#review');
-        $('#review').css({ marginLeft: 0 });
-        $('#review').stop().animate({ marginLeft: -0 }, 800, function () {   
+        $('#review').css({ marginLeft: 0 });          
         });
     });
 });
