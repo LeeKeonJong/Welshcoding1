@@ -26,25 +26,19 @@
             #one > button:hover{background-color:white; color:#f9b81e; transition:0.2s;}
 
 
-
-
+            
 
             #mainbn{height: 900px; width: 1160px; padding: 20px; margin: 0 auto; position: relative;}
 
             #bb img{width: 100%; height: 800px; margin: 0 auto; position: absolute;}
+            #bb video{width: 100;}
 
             #mainbn h4{font-size: 30px; text-align: center; color: white; margin: 200px 0 0 0px; font-family: 'SF_HambakSnow';}
             #mainbn h1{font-size: 120px; font-weight: bold; text-align:center; color: white; margin: 20px 0 0 0px; font-family: 'SF_HambakSnow';}
 
-            .as:hover {background-color: #ffb122;}
-            .as1:hover {background-color: #ffb122;}
+            #imgbox{width: 235px; height: 380px; position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block; margin: 10px; top: 70px; left: 190px;}
 
-            .as > img {width: 60px; height: 60px; margin-left: 20px; position: absolute; top: 650px; left: 110px; cursor: pointer;}
-            .as1 > img {width: 60px; height: 60px; margin-left: 20px; position: absolute; top: 650px; right: 110px; cursor: pointer;}
-
-            .imgbox{width: 235px; height: 380px; position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block; margin: 10px; top: 70px; left: 210px; }
-
-            .imgbox > img{width: 100%; height: 330px;}
+            #imgbox > img{width: 100%; height: 330px;}
 
             .textbox { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
 
@@ -55,12 +49,9 @@
             
 
 
-            #eventgame{width: 1200px; height: 600px; display: flex; flex-flow: row wrap ; margin: 0 auto; position: relative;}
-            .imgbox1{width: 220px; height: 190px; margin-left: 80px;  position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block;}
+            #eventgame{width: 1200px; height: 600px; display: flex; flex-flow: row wrap ; justify-content: space-around; margin: 0 auto; position: relative; box-sizing: border-box; padding: 0 150px;}
+            .imgbox1{width: 30%; height: 190px;   position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block;}
             .imgbox1 > img{width: 100%; height: 137px;}
-
-            .imgbox2{width: 252px; height: 200px; margin-left: 100px; position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block;}
-            .imgbox2 > img{width: 100%; height: 147px;}
 
             .textbox1 { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
 
@@ -68,26 +59,20 @@
             .textbox1 span { margin-left: 10px; font-size: 15px;}
             .textbox1:hover {background-color:rgba(0, 0, 0, 0.6);}
 
-            .textbox2 { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
-
-            .textbox2 p{width: 40px; background-color: #ffb122; margin-top: 155px; margin-left: 10px;}
-            .textbox2 span { margin-left: 10px; font-size: 15px;}
-            .textbox2:hover {background-color:rgba(0, 0, 0, 0.6);}
 
 
 
 
 
-
-            #subbn{width: 100%; height: 300px; }
+            #subbn{width: 100%; height: 300px; position: relative;}
             #subbn img{width: 100%; height:100%;}
-
+            
 
 
 
 
             #together{width: 1200px; height: 900px; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: center; box-sizing: border-box; padding: 0 150px;}
-            #together h2 {width: 100%; font-size: 20pt; margin:100px 0 50px;  color: white;}
+            #together h2 {width: 100%; font-size: 20pt; margin:80px 0 50px;  color: white;}
             .togetherimg > img{width: 214px; height: 222px; }
 
             .imgbox3 { width: 25%; height: 225px; margin-bottom: 10px;
@@ -110,36 +95,19 @@
 
 
 
-            #nextevent{width: 1200px; height: 760px; margin: 0 auto;}
-            #nextevent h2{margin-left: 150px; color: white;}
+            #nextevent{width: 1200px; height: 900px; margin: 0 auto; display: flex; flex-flow: wrap;  box-sizing: border-box; box-sizing: border-box;padding: 0 150px;align-content: center;} 
+
+            #nextevent > h2{color: white; width: 100%; margin: -100px 0 50px;}
             
 
-            #nextbox1{width: 900px; height: 138px; margin-left: 160px; margin-top: 50px; }
-            #nextbox1 img{width: 250px; height: 138px; margin-right: 20px; float: left;}
+            .nextbox1{width: 900px; height: 138px;  color: white; margin-bottom: 20px;}
+            .nextbox1 img{width: 250px; height: 138px; margin-right: 20px; float: left;}
+            a{text-decoration-line: none; color:white;}
 
-            #nextbox1 b{color: white; font-size: 14px;}
-            #nextbox1 h3{color: white;} 
-            #nextbox1 p{color: white; margin: 5px;}
+            .textbox4 b{ font-size: 14px;}
 
-            #nextbox2{width: 900px; height: 138px; margin-left: 160px; margin-top: 20px; }
-            #nextbox2 img{width: 250px; height: 138px; margin-right: 20px; float: left;}
-            #nextbox2 b{color: white; font-size: 14px;}
-            #nextbox2 h3{color: white; margin: 6px;} 
-            #nextbox2 p{color: white; margin: 5px; font-size: 15px;}
-
-            #nextbox3{width: 900px; height: 138px; margin-left: 160px; margin-top: 20px; }
             #newslink iframe{width: 250px; height: 138px; margin-right: 20px; float: left;}
-            #nextbox3 b{color: white; font-size: 14px;}
-            #nextbox3 h3{color: white; margin: 6px;} 
-            #nextbox3 p{color: white; margin: 5px;}
-
-            #nextbox4{width: 900px; height: 138px; margin-left: 160px; margin-top: 20px; }
-            #nextbox4 img{width: 250px; height: 138px; margin-right: 20px; float: left;}
             
-            #nextbox4 b{color: white; font-size: 14px;}
-            #nextbox4 h3{color: white;} 
-            #nextbox4 p{color: white; margin: 5px;}
-
 
 
             footer{width:100%; height:60px; background-color:#131313;}
@@ -151,3 +119,5 @@
             #two > nav ul li{padding:0 5%;}
             #two > nav ul li a{color:white; font-size:16px; font-family: 'EliceDigitalBaeum_Bold'; text-decoration: none; font-weight:normal; line-height: 55px; justify-content: center;}
             #two > nav ul li a:hover{color:#f9b81e;}
+
+
