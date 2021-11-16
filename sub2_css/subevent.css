@@ -25,20 +25,17 @@
             #one > button{width:15%; height:40px; font-family: 'EliceDigitalBaeum_Regular'; background-color:#ffb122; color:black; border-radius:50px; border:0; justify-content: flex-end; margin-top:19px; cursor:pointer;}
             #one > button:hover{background-color:white; color:#f9b81e; transition:0.2s;}
 
-
+            #mainbn{height: 1100px; width: 100%; float: left; margin: 0 auto;}
+            #mainbn .bb {width: 100%; height: 800px; margin: 0 auto; position: absolute;}
             
+            #mainbn2 {width: 1110px; height: 800px; position: absolute;  display: flex; flex-flow: row wrap ; justify-content: space-around; margin: 0 auto; position: relative; box-sizing: border-box; padding: 70px 100px; top: 100px; }
 
-            #mainbn{height: 900px; width: 1160px; padding: 20px; margin: 0 auto; position: relative;}
+            #mainbn2 h4{width: 100%; font-size: 30px; text-align: center; color: white;  font-family: 'SF_HambakSnow';}
+            #mainbn2 h1{width: 100%; font-size: 120px; font-weight: bold; text-align:center; color: white; font-family: 'SF_HambakSnow';} 
 
-            #bb img{width: 100%; height: 800px; margin: 0 auto; position: absolute;}
-            #bb video{width: 100;}
+            .imgbox {width: 235px; height: 380px; position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block; margin: 10px; top: 5px; }
 
-            #mainbn h4{font-size: 30px; text-align: center; color: white; margin: 200px 0 0 0px; font-family: 'SF_HambakSnow';}
-            #mainbn h1{font-size: 120px; font-weight: bold; text-align:center; color: white; margin: 20px 0 0 0px; font-family: 'SF_HambakSnow';}
-
-            #imgbox{width: 235px; height: 380px; position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block; margin: 10px; top: 70px; left: 190px;}
-
-            #imgbox > img{width: 100%; height: 330px;}
+            .imgbox > img{width: 100%; height: 330px;}
 
             .textbox { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
 
@@ -46,32 +43,18 @@
             .textbox span { margin-left: 10px;}
             .textbox:hover {background-color:rgba(0, 0, 0, 0.6);}
 
-            
-
-
-            #eventgame{width: 1200px; height: 600px; display: flex; flex-flow: row wrap ; justify-content: space-around; margin: 0 auto; position: relative; box-sizing: border-box; padding: 0 150px;}
+            #eventgame{width: 1110px; height: 600px; display: flex; flex-flow: row wrap ; justify-content: space-around; margin: 0 auto; position: relative; box-sizing: border-box; padding: 0 150px;}
             .imgbox1{width: 30%; height: 190px;   position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block;}
             .imgbox1 > img{width: 100%; height: 137px;}
-
             .textbox1 { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
-
             .textbox1 p{width: 40px; background-color: #ffb122; margin-top: 145px; margin-left: 10px;}
             .textbox1 span { margin-left: 10px; font-size: 15px;}
             .textbox1:hover {background-color:rgba(0, 0, 0, 0.6);}
 
-
-
-
-
-
             #subbn{width: 100%; height: 300px; position: relative;}
             #subbn img{width: 100%; height:100%;}
             
-
-
-
-
-            #together{width: 1200px; height: 900px; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: center; box-sizing: border-box; padding: 0 150px;}
+            #together{width: 1110px; height: 900px; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: center; box-sizing: border-box; padding: 0 100px;}
             #together h2 {width: 100%; font-size: 20pt; margin:80px 0 50px;  color: white;}
             .togetherimg > img{width: 214px; height: 222px; }
 
@@ -89,17 +72,10 @@
 
             .imgbox3:hover .info {opacity:1; bottom: 0;}
 
-
-
-
-
-
-
-            #nextevent{width: 1200px; height: 900px; margin: 0 auto; display: flex; flex-flow: wrap;  box-sizing: border-box; box-sizing: border-box;padding: 0 150px;align-content: center;} 
+            #nextevent{width: 1110px; height: 900px; margin: 0 auto; display: flex; flex-flow: wrap;  box-sizing: border-box; box-sizing: border-box;padding: 0 150px;align-content: center;} 
 
             #nextevent > h2{color: white; width: 100%; margin: -100px 0 50px;}
-            
-
+      
             .nextbox1{width: 900px; height: 138px;  color: white; margin-bottom: 20px;}
             .nextbox1 img{width: 250px; height: 138px; margin-right: 20px; float: left;}
             a{text-decoration-line: none; color:white;}
@@ -107,7 +83,8 @@
             .textbox4 b{ font-size: 14px;}
 
             #newslink iframe{width: 250px; height: 138px; margin-right: 20px; float: left;}
-            
+  
+
 
 
             footer{width:100%; height:60px; background-color:#131313;}

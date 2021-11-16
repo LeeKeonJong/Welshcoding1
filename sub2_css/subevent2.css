@@ -1,0 +1,204 @@
+* {margin:0; padding:0;}
+ul, li, ol{list-style-type:none; margin:0; padding:0;}
+
+
+@font-face {
+font-family: 'SF_HambakSnow';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+body{width:100%; height:100%; background-color: black;}
+
+@media(max-width:599px){
+    #mainbn{height: auto; width: 100%; float: left; margin: 0 auto;}
+    #mainbn .bb {width: 100%; height: 800px; margin: 0 auto; position: absolute;}
+    
+    #mainbn2 {width: 100%; height: 1800px; position: absolute;  display: flex; flex-flow: row wrap ; justify-content: space-around; margin: 0 auto; position: relative; box-sizing: border-box; padding: 70px 100px; top: 100px; }
+
+    #mainbn2 h4{width: 100%; font-size: 30px; text-align: center; color: white;  font-family: 'SF_HambakSnow';}
+    #mainbn2 h1{width: 100%; font-size: 58px; font-weight: bold; text-align:center; color: white; font-family: 'SF_HambakSnow';} 
+
+    .imgbox {width: 235px; height: 380px; position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block; margin: 10px; top: 5px; }
+
+    .imgbox > img{width: 100%; height: 330px;}
+
+    .textbox { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
+
+    .textbox p{width: 40px; background-color: #ffb122; margin-top: 335px; margin-left: 10px;}
+    .textbox span { margin-left: 10px;}
+    .textbox:hover {background-color:rgba(0, 0, 0, 0.6);}
+
+    #eventgame{width: 100%; height: 1600px; display: flex; flex-flow: row wrap ; justify-content: space-around; margin: 0 auto; position: relative; box-sizing: border-box; padding: 0 100px;}
+    .imgbox1{width: 90%; height: 190px;   position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block;}
+    .imgbox1 > img{width: 100%; height: 137px;}
+    .textbox1 { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
+    .textbox1 p{width: 40px; background-color: #ffb122; margin-top: 145px; margin-left: 10px;}
+    .textbox1 span { margin-left: 10px; font-size: 15px;}
+    .textbox1:hover {background-color:rgba(0, 0, 0, 0.6);}
+
+    #subbn{width: 100%; height: auto; position: relative;}
+    #subbn img{width: 100%; height:100%;}
+    
+    #together{width: 100%; height: auto; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: center; box-sizing: border-box; padding: 0px 100px;}
+    #together h2 {width: 100%; font-size: 20pt; margin:80px 0 50px;  color: white;}
+    .togetherimg > img{width: 100%; height: 222px; }
+
+    .imgbox3 { width: 50%; height: 150px; margin-bottom: 10px;
+    position: relative;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    overflow: hidden;}
+
+    .info{opacity: 0; position: absolute;  left: 0; top:auto; bottom: -100%; right: 0; background: rgba(0,0,0,0.7); color: #fff; padding: 13px; transition: all 0.35s ease-in-out;}
+
+    .imgbox3 .info p{background-color: #ffb122; width: 40px;}
+
+    .imgbox3 .info span{font-size: 14px;}
+
+    .imgbox3:hover .info {opacity:1; bottom: 0;}
+
+    #nextevent{width: 100%; height: 1700px; margin: 0 auto; display: flex; flex-flow: wrap;  box-sizing: border-box; box-sizing: border-box;padding: 0 90px;align-content: center;} 
+
+    #nextevent > h2{color: white; width: 100%; margin: -100px 0 50px;}
+
+    .nextbox1{width: 100%; height:auto;  color: white; margin-bottom: 20px;}
+    .nextbox1 img{width: 100%; height: 138px; margin-right: 20px; float: left;}
+    a{text-decoration-line: none; color:white;}
+
+    .textbox4 b{ font-size: 14px;}
+
+    #newslink iframe{width:100%; height: 138px; margin-right: 20px; float: left;}
+
+}
+
+@media(min-width:600px){
+
+    #mainbn{height: auto; width: 100%; float: left; margin: 0 auto;}
+    #mainbn .bb {width: 100%; height: 800px; margin: 0 auto; position: absolute;}
+    
+    #mainbn2 {width: 100%; height: 1800px; position: absolute;  display: flex; flex-flow: row wrap ; justify-content: space-around; margin: 0 auto; position: relative; box-sizing: border-box; padding: 70px 100px; top: 100px; }
+
+    #mainbn2 h4{width: 100%; font-size: 30px; text-align: center; color: white;  font-family: 'SF_HambakSnow';}
+    #mainbn2 h1{width: 100%; font-size: 80px; font-weight: bold; text-align:center; color: white; font-family: 'SF_HambakSnow';} 
+
+    .imgbox {width: 235px; height: 380px; position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block; margin: 10px; top: 5px; }
+
+    .imgbox > img{width: 100%; height: 330px;}
+
+    .textbox { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
+
+    .textbox p{width: 40px; background-color: #ffb122; margin-top: 335px; margin-left: 10px;}
+    .textbox span { margin-left: 10px;}
+    .textbox:hover {background-color:rgba(0, 0, 0, 0.6);}
+
+    #eventgame{width: 100%; height: 800px; display: flex; flex-flow: row wrap ; justify-content: space-around; margin: 0 auto; position: relative; box-sizing: border-box; padding: 0 150px;}
+    .imgbox1{width: 50%; height: 190px;   position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block;}
+    .imgbox1 > img{width: 100%; height: 137px;}
+    .textbox1 { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
+    .textbox1 p{width: 40px; background-color: #ffb122; margin-top: 145px; margin-left: 10px;}
+    .textbox1 span { margin-left: 10px; font-size: 15px;}
+    .textbox1:hover {background-color:rgba(0, 0, 0, 0.6);}
+
+    #subbn{width: 100%; height: auto; position: relative;}
+    #subbn img{width: 100%; height:100%;}
+    
+    #together{width: 100%; height: auto; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: center; box-sizing: border-box; padding: 0px 100px;}
+    #together h2 {width: 100%; font-size: 20pt; margin:80px 0 50px;  color: white;}
+    .togetherimg > img{width: 100%; height: 222px; }
+
+    .imgbox3 { width: 40%; height: 150px; margin-bottom: 10px;
+    position: relative;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    overflow: hidden;}
+
+    .info{opacity: 0; position: absolute;  left: 0; top:auto; bottom: -100%; right: 0; background: rgba(0,0,0,0.7); color: #fff; padding: 13px; transition: all 0.35s ease-in-out;}
+
+    .imgbox3 .info p{background-color: #ffb122; width: 40px;}
+
+    .imgbox3 .info span{font-size: 14px;}
+
+    .imgbox3:hover .info {opacity:1; bottom: 0;}
+
+    #nextevent{width: 100%; height: 1700px; margin: 0 auto; display: flex; flex-flow: wrap;  box-sizing: border-box; box-sizing: border-box;padding: 0 90px;align-content: center;} 
+
+    #nextevent > h2{color: white; width: 100%; margin: -100px 0 50px;}
+
+    .nextbox1{width: 100%; height:auto;  color: white; margin-bottom: 20px;}
+    .nextbox1 img{width: 100%; height: 200px; margin-right: 20px; float: left;}
+    a{text-decoration-line: none; color:white;}
+
+    .textbox4 b{ font-size: 14px;}
+
+    #newslink iframe{width:100%; height: 138px; margin-right: 20px; float: left;}
+
+
+}
+
+
+@media(min-width:1100px){
+    #mainbn{height: auto; width: 100%; float: left; margin: 0 auto;}
+    #mainbn .bb {width: 100%; height: 800px; margin: 0 auto; position: absolute;}
+    
+    #mainbn2 {width: 100%; height: 1000px; position: absolute;  display: flex; flex-flow: row wrap ; justify-content: space-around; margin: 0 auto; position: relative; box-sizing: border-box; padding: 70px 100px; top: 100px; }
+
+    #mainbn2 h4{width: 100%; font-size: 30px; text-align: center; color: white;  font-family: 'SF_HambakSnow';}
+    #mainbn2 h1{width: 100%; font-size: 120px; font-weight: bold; text-align:center; color: white; font-family: 'SF_HambakSnow';} 
+
+    .imgbox {width: 235px; height: 380px; position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block; margin: 10px; top: 5px; }
+
+    .imgbox > img{width: 100%; height: 330px;}
+
+    .textbox { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
+
+    .textbox p{width: 40px; background-color: #ffb122; margin-top: 335px; margin-left: 10px;}
+    .textbox span { margin-left: 10px;}
+    .textbox:hover {background-color:rgba(0, 0, 0, 0.6);}
+
+    #eventgame{width: 100%; height: 600px; display: flex; flex-flow: row wrap ; justify-content: space-around; margin: 0 auto; position: relative; box-sizing: border-box; padding: 0 150px;}
+    .imgbox1{width: 30%; height: 190px;   position: relative; overflow: hidden; background-color:#131313; cursor: pointer; display: inline-block;}
+    .imgbox1 > img{width: 100%; height: 137px;}
+    .textbox1 { transition:all 0.5s ease; color: white; position:absolute;width: 100%; height: 100%; top: 0px;}
+    .textbox1 p{width: 40px; background-color: #ffb122; margin-top: 145px; margin-left: 10px;}
+    .textbox1 span { margin-left: 10px; font-size: 15px;}
+    .textbox1:hover {background-color:rgba(0, 0, 0, 0.6);}
+
+    #subbn{width: 100%; height: 300px; position: relative;}
+    #subbn img{width: 100%; height:100%;}
+    
+    #together{width: 100%; height: 900px; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: center; box-sizing: border-box; padding: 0 100px;}
+    #together h2 {width: 100%; font-size: 20pt; margin:80px 0 50px;  color: white;}
+    .togetherimg > img{width: 214px; height: 222px; }
+
+    .imgbox3 { width: 25%; height: 225px; margin-bottom: 10px;
+    position: relative;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    overflow: hidden;}
+
+    .info{opacity: 0; position: absolute;  left: 0; top:auto; bottom: -100%; right: 0; background: rgba(0,0,0,0.7); color: #fff; padding: 13px; transition: all 0.35s ease-in-out;}
+
+    .imgbox3 .info p{background-color: #ffb122; width: 40px;}
+
+    .imgbox3 .info span{font-size: 14px;}
+
+    .imgbox3:hover .info {opacity:1; bottom: 0;}
+
+    #nextevent{width: 100%; height: 900px; margin: 0 auto; display: flex; flex-flow: wrap;  box-sizing: border-box; box-sizing: border-box;padding: 0 150px;align-content: center;} 
+
+    #nextevent > h2{color: white; width: 100%; margin: -100px 0 50px;}
+
+    .nextbox1{width: 900px; height: 138px;  color: white; margin-bottom: 20px;}
+    .nextbox1 img{width: 250px; height: 138px; margin-right: 20px; float: left;}
+    a{text-decoration-line: none; color:white;}
+
+    .textbox4 b{ font-size: 14px;}
+
+    #newslink iframe{width: 250px; height: 138px; margin-right: 20px; float: left;}
+
+
+
+    
+}
